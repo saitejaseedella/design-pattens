@@ -1,4 +1,4 @@
-package org.example.decorator;
+package org.design.pattern.decorator;
 
 public class StarbuzzCoffee {
   public static void main(String[] args) {

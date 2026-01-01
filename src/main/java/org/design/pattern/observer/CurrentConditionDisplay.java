@@ -1,7 +1,7 @@
-package org.example.observer;
+package org.design.pattern.observer;
 
-import org.example.observer.interafce.DisplayElements;
-import org.example.observer.interafce.Observer;
+import org.design.pattern.observer.interafce.DisplayElements;
+import org.design.pattern.observer.interafce.Observer;
 
 public class CurrentConditionDisplay implements DisplayElements, Observer {
     private float temperature;

@@ -1,4 +1,4 @@
-package org.example.decorator;
+package org.design.pattern.decorator;
 
 public abstract class CondimentDecorator extends Beverage {
   Beverage beverage;

@@ -1,6 +1,6 @@
-package org.example.strategy.impl;
+package org.design.pattern.strategy.impl;
 
-import org.example.strategy.FlyBehaviour;
+import org.design.pattern.strategy.FlyBehaviour;
 
 public class FlyWithWings implements FlyBehaviour {
 

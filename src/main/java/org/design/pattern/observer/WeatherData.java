@@ -1,7 +1,7 @@
-package org.example.observer;
+package org.design.pattern.observer;
 
-import org.example.observer.interafce.Observer;
-import org.example.observer.interafce.Subject;
+import org.design.pattern.observer.interafce.Observer;
+import org.design.pattern.observer.interafce.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

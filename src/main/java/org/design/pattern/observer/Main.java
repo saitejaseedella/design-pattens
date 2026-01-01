@@ -1,4 +1,4 @@
-package org.example.observer;
+package org.design.pattern.observer;
 
 public class Main {
     public static void main(String[] args){

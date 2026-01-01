@@ -1,4 +1,4 @@
-package org.example.strategy;
+package org.design.pattern.strategy;
 
 // Duck.java
 public abstract class Duck {

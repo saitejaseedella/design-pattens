@@ -1,4 +1,4 @@
-package org.example.strategy;
+package org.design.pattern.strategy;
 
 public class MallardDuck extends Duck {
 
