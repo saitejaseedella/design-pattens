@@ -28,7 +28,6 @@ public class RemoteControlTestDrive {
     remote.onButtonWasPressed(0);
     remote.offButtonWasPressed(0);
     remote.undoButtonWasPressed();
-
     System.out.println();
 
     remote.onButtonWasPressed(1);
