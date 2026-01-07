@@ -1,0 +1,44 @@
+package org.design.pattern.composite;
+
+import java.util.Iterator;
+
+public abstract class MenuComponent {
+
+  // "default" implementations: leaf/composite override what they support
+  public void add(MenuComponent menuComponent) {
+    throw new UnsupportedOperationException();
+  }
+
+  public void remove(MenuComponent menuComponent) {
+    throw new UnsupportedOperationException();
+  }
+
+  public MenuComponent getChild(int i) {
+    throw new UnsupportedOperationException();
+  }
+
+  public String getName() {
+    throw new UnsupportedOperationException();
+  }
+
+  public String getDescription() {
+    throw new UnsupportedOperationException();
+  }
+
+  public double getPrice() {
+    throw new UnsupportedOperationException();
+  }
+
+  public boolean isVegetarian() {
+    throw new UnsupportedOperationException();
+  }
+
+  public void print() {
+    throw new UnsupportedOperationException();
+  }
+
+  // optional (used if you want traversal support later)
+  public Iterator<MenuComponent> createIterator() {
+    throw new UnsupportedOperationException();
+  }
+}
